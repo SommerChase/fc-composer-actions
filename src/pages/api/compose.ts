@@ -11,8 +11,8 @@ export default function handler(
 
     res.status(200).json({ 
       type: 'form',
-      title: 'dTech.vision',
-      url: 'http://localhost:3000', // make sure this is your public URL e.g. http://localhost:3000 for local testing
+      title: 'Chase',
+      url: 'https://fc-composer-actions-lilac.vercel.app/', // make sure this is your public URL e.g. http://localhost:3000 for local testing
     });
   } else if (req.method === 'GET') {
     res.status(200).json({
